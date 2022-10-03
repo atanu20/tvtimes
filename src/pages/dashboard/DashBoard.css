@@ -1,0 +1,27 @@
+.dash__box{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 130px 0px 30px 0;
+}
+.dash__box  .card{
+    background-color: rgb(14, 14, 14);
+    border-radius: 0;
+    border-radius: 15px;
+}
+.text-red{
+    color: red;
+}
+.dash__box .card img{
+    border-radius: 15px;
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+}
+
+.pmb {
+    margin-bottom: 0px;
+}
+.pmt{
+    margin-bottom: 0px;
+}

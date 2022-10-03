@@ -1,0 +1,95 @@
+.auth {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('http://localhost:4551/image/netflix.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+/* https://raw.githubusercontent.com/atanu20/front-end-webdev/master/image/netflix.png  */
+/* .auth::before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url('http://localhost:4551/image/two.svg');
+
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 30%;
+}
+
+.auth::after {
+  position: absolute;
+  content: '';
+  top: 0px;
+  right: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url('http://localhost:4551/image/one.svg');
+
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 30%;
+} */
+
+.dis {
+  cursor: no-drop !important;
+}
+.padd {
+  padding: 50px 0;
+}
+
+
+.auth .card{
+  background-color: #000000;
+}
+.btn-danger{
+  background-color: red;
+  border: none;
+  border-radius: 0;
+}
+.btn-danger:hover{
+  background-color: red;
+}
+ .form-control{
+  background: transparent;
+  border: 1px solid red !important;
+  color:white
+}
+.form-control:focus{
+  background: transparent !important;
+  
+}
+@media (max-width: 600px) {
+  .auth::before {
+    background-size: 50%;
+  }
+}
+
+.userimg{
+  width: 100px;
+  height: 100px;
+border-radius: 50%;
+}
+
+
+.dash{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+padding: 120px 0px 30px 0px;
+}
