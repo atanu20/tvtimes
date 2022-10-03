@@ -22,7 +22,9 @@ const DashboradList = ({ data }) => {
           />
           <div className="p-2 text-light">
             <p className="pmb">{data?.cinemaHall}</p>
-            <span>{new Date(data?.bookDate).toLocaleDateString()}</span>
+            <span>
+              {new Date(data?.bookDate).toLocaleDateString()} {data?.timeSlot}
+            </span>
             <p className="pmt">Seat No: &nbsp;{data?.seatNo.toString()} </p>
           </div>
         </div>
