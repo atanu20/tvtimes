@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('http://localhost:4551/image/netflix.png');
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://tvtime.netlify.app/image/netflix.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

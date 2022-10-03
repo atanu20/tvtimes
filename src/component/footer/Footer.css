@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     min-height: 50vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('http://localhost:4551/image/footer-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://tvtime.netlify.app/image/footer-bg.jpg');
     background-position: c;
     background-repeat: no-repeat;
     background-size: cover;
