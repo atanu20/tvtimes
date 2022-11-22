@@ -1,0 +1,52 @@
+.book___box{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 130px 0px 30px 0;
+}
+.book___box .card{
+    background-color: rgb(14, 14, 14);
+    border-radius: 0;
+}
+.small__btn{
+padding: 3px;
+border: 1px solid white;
+color:white;
+cursor: pointer;
+background-color: gray;
+outline: none !important;
+}
+.small__btn__booked{
+    padding: 3px;
+border: 1px solid white;
+color:white;
+cursor: no-drop;
+background-color: brown;
+outline: none !important;
+}
+
+.button__grid{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 10px;
+}
+.delete__button{
+    padding: 3px;
+border: 1px solid white;
+color:white;
+background-color: brown;
+cursor: pointer;
+}
+.delete__button:hover{
+    background-color: red;
+}
+
+.delete__button:hover span {
+    display:none
+  }
+  
+  .delete__button:hover:before {
+    content:"X";
+    
+  }

@@ -1,0 +1,46 @@
+footer{
+    width: 100%;
+    min-height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://tvtime.netlify.app/image/footer-bg.jpg');
+    background-position: c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Signup__text{
+    color:white;
+    font-size: 25px;
+}
+.Signup__form{
+    margin: 5px 0;
+}
+.Signup__form input{
+    
+    height: 40px;
+    outline: none;
+    padding: 5px;
+    background-color: rgb(21, 20, 20);
+    border: 0;
+    color:white;
+}
+.Signup__form button{
+    padding: 8px 15px;
+    outline: none;
+    background-color: red;
+    color:white;
+    border: 0;
+    margin-left: 15px;
+   
+    cursor: pointer;
+}
+
+@media (max-width:380px) {
+    .Signup__form button{
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+}

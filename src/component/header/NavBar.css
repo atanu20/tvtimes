@@ -1,0 +1,141 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 99;
+    transition: height 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+.avtar_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+
+}
+.logout_btn{
+    cursor: pointer;
+    color:white
+}
+.avtar_icon:hover{
+    color: white;
+    text-decoration: none;
+}
+.header.shrink {
+    height: 75px;
+    background-color: #0f0f0f;
+}
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_header{
+    color:white !important;
+    font-size: 30px;
+
+}
+.logo_header:hover{
+    text-decoration: none !important;
+}
+.logo_header span{
+    color:red;
+}
+.nav__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__items .nav__item{
+    color:white !important;
+    margin:0px 5px ;
+    
+}
+.nav__items .nav__item:hover{
+    color:white !important;
+    text-decoration: none;
+}
+.nav__item__active{
+    /* border: 2px solid white; */
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: red;
+}
+.mobie_nav_select{
+    margin: 0px 5px;
+    outline: none !important;
+    background-color: transparent;
+    color:red;
+    width: 70px;
+    border: 1px solid white !important;
+}
+
+.nav_select{
+    padding: 5px;
+    margin: 0px 5px;
+    outline: none !important;
+    background-color: transparent;
+    color:red;
+    border: 1px solid white !important;
+}
+.logo_header i{
+    color:red !important;
+}
+
+.desktop__nav__box{
+    display: block;
+}
+.mobile__nav__box{
+    display: none;
+}
+.bar_icon{
+    color:red;
+    background-color: white;
+    padding: 3px 2px;
+    cursor: pointer;
+}
+
+.mobile__navbar{
+    width: 200px;
+    height: 100vh;
+    background-color: #0f0f0f;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.5s;
+
+
+}
+.mobile__nav__item{
+    color:white;
+
+}
+.mobile__nav__item:hover{
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid red;
+}
+.mobile__navbar ul{
+    list-style-type: none;
+}
+.mobile__navbar ul li{
+    margin-bottom: 10px;
+}
+
+@media (max-width:780px) {
+    .desktop__nav__box{
+        display: none;
+    }
+    .mobile__nav__box{
+        display: block;
+    }
+    
+}
